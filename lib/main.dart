@@ -14,8 +14,7 @@ Future<void> main() async {
   runApp(
     GetMaterialApp(
       title: "Application",
-      // initialRoute: AppPages.INITIAL,
-      initialRoute: Routes.HOME,
+      initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
       theme: ThemeData(
         useMaterial3: true,
