@@ -56,7 +56,7 @@ class LoginView extends GetView<LoginController> {
                   ),
                   const Spacer(),
                   InkWell(
-                      onTap: controller.onSubmitHandler,
+                      onTap: () => controller.onSubmitHandler(context),
                       child: CustomButton(
                         text: "Submit",
                         width: Get.width,
